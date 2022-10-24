@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import "./LibrosLista.css"
 import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/componentes/Libros'
 import {Link, useNavigate} from "react-router-dom"
+import imagen from "../../../src/book.jpg"
 
 
 
@@ -23,7 +24,7 @@ const accionEditar = (id, autor, titulo, edicion, fecha_de_publicacion, tipo_de_
   localStorage.setItem("Materia", materia)
   localStorage.setItem("Proveedor", proveedor)
   localStorage.setItem("Id",id)
-  
+
 }
 
 
@@ -75,6 +76,10 @@ const accionEliminar = (id) => {
                 item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
               <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
+              </div>
+              <div className='libroimg'>
+                <img src={imagen} alt="" />
+
               </div>
               </div>
               
