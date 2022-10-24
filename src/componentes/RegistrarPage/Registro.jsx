@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./Registro.css"
 import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/componentes/Libros'
-import {Link, useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import {v4 as uuid} from "uuid"
 
 

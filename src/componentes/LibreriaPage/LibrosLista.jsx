@@ -11,6 +11,14 @@ function LibrosLista() {
 
 let historial = useNavigate();
 
+const accionEditar = (id, autor) =>{
+  localStorage.setItem("Autor", autor)
+  localStorage.setItem("Id",id)
+}
+
+
+
+
 const accionEliminar = (id) => {
   var index = Libros.map(function(e){
     return e.id
@@ -53,7 +61,7 @@ const accionEliminar = (id) => {
               </div>
               <div className='botones'>
               <Link to={"/editar"}>
-              <button onClick={() => alert(item.id)}>Editar</button>
+              <button onClick={() => accionEditar(item.id, item.Autor)}>Editar</button>
               </Link>
               <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
               </div>
