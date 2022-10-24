@@ -1,12 +1,29 @@
 import React, {Fragment} from 'react'
 import "./LibrosLista.css"
 import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/componentes/Libros'
-/*import {Button, Table} from "react-bootstrap"*/
-/*import "bootstrap/dist/css/bootstrap.min.css"*/
 import {Link} from "react-router-dom"
 
 
+
+
 function LibrosLista() {
+
+const accionEliminar = (id) => {
+  var index = Libros.map(function(e){
+    return e.id
+  }).indexOf(id)
+
+  Libros.splice(index,1)
+
+
+
+
+}
+
+
+
+
+
   return (
     <Fragment>
          <div className='lol' >
@@ -33,7 +50,8 @@ function LibrosLista() {
               </div><br></br>
               </div>
               <div className='botones'>
-              <h2>loq ue sea </h2>
+              <button onClick={() => alert(item.id)}>Editar</button>
+              <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
               </div>
               </div>
               
