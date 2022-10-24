@@ -63,36 +63,6 @@ height: 50px;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tabla-contenedor {
     display: flex;
     width:90%;
@@ -100,16 +70,37 @@ height: 50px;
     background-color: red;
 }
 
-.informacion 
+.informacion1
 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    background: blanchedalmond;
+    overflow: auto;
     
-    width: 50%;
+}
+.informacion
+{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
     margin: 10px;
     background: blanchedalmond;
     
     
 }
+
+.primera {
+    width: 50%;
+    background-color: yellow;
+}
+
+.primera p {
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-size: 15px;
+    }
 
 .botones {
     text-align: center;
@@ -121,12 +112,6 @@ height: 50px;
 
 
 
-
-.primera p {
-margin: 0;
-padding: 0 0 0 20px;
-font-size: 15px;
-}
 
 h2 {
     display: flex;

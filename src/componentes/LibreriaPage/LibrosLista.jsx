@@ -57,7 +57,7 @@ const accionEliminar = (id) => {
               </div>
 
 <div className='tabla-contenedor'>
-          <div className='informacion'>
+          <div className='informacion1'>
           {
           Libros && Libros.length > 0
           ?
@@ -77,16 +77,21 @@ const accionEliminar = (id) => {
               </div>
               </div>
               <div className='botones'>
+              <div className='libroimg'>
+                <img src={imagen} alt="" />
+
+              </div>
+              
               <Link to={"/editar"}>
               <button onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
                 item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
               <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
-              </div>
-              <div className='libroimg'>
-                <img src={imagen} alt="" />
+
 
               </div>
+              
+              
               </div>
               
             )
