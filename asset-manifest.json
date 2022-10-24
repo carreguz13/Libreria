@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Libreria/static/css/main.481e64fe.css",
+    "main.js": "/Libreria/static/js/main.d25fa543.js",
+    "static/media/book.png": "/Libreria/static/media/book.47f55e65ecca2704e594.png",
+    "static/media/4.jpg": "/Libreria/static/media/4.fe7139e7e2ebc15093d1.jpg",
+    "static/media/download.svg": "/Libreria/static/media/download.7376bf20e47ecb3f3252bed057ca00ae.svg",
+    "index.html": "/Libreria/index.html",
+    "main.481e64fe.css.map": "/Libreria/static/css/main.481e64fe.css.map",
+    "main.d25fa543.js.map": "/Libreria/static/js/main.d25fa543.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.481e64fe.css",
+    "static/js/main.d25fa543.js"
+  ]
+}
