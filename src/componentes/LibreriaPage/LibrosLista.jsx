@@ -3,8 +3,7 @@ import "./LibrosLista.css"
 import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/componentes/Libros'
 import {Link, useNavigate} from "react-router-dom"
 import imagen from "../../../src/book.jpg"
-
-
+import imagen2 from "../../../src/Assets/download.svg"
 
 
 
@@ -46,10 +45,17 @@ const accionEliminar = (id) => {
 
   return (
     <Fragment>
-         <div className='lol' >
+         <div className='main-container' >
+
+           <div className='botones-lib'>
           <Link to={"/"}>
-          <button>back home</button>
-          </Link>
+              <img className='casa' src={imagen2} alt="" />
+              </Link>
+              <Link to={"/registro"}>
+              <button className='btnverde'>Registrar nuevo libro</button>
+              </Link>
+              </div>
+
 <div className='tabla-contenedor'>
           <div className='informacion'>
           {

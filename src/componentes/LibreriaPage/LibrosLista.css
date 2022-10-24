@@ -1,13 +1,97 @@
-.lol {
+.main-container {
     width: 100%;
     height: 100vh;
-    background-color: blue;
+    background-image: url("../../Assets/4.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+    background-position: center;
+    background-size: cover;
 }
+
+.botones-lib {
+    display: flex;
+    width: 90%;
+height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.casa{
+    width: 40px;
+    height: auto;
+    padding: 0 30px 0 15px;
+   }
+   .casa:hover {
+    transform: translateY(-2px);
+  }
+
+   .btnverde{
+    align-items: center;
+    
+    background-color: #14830c;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#14830c 0 -3px 0 inset;
+    color: #fff;
+    cursor: pointer;
+    height: 33px;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 15px;
+    font-weight: bolder;
+    
+   }
+
+   .btnverde:focus {
+    box-shadow: #14830c 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #14830c 0 -3px 0 inset;
+  }
+  
+  .btnverde:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #14830c 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btnverde:active {
+    box-shadow: #14830c 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tabla-contenedor {
     display: flex;
