@@ -39,9 +39,9 @@ historial ("/libreria")
 }
 
 
-
   return (
-<div>
+    
+<div className='mainr'>
   <form>
 
     <label htmlFor="autor-imput">Autor</label>
@@ -95,7 +95,10 @@ historial ("/libreria")
 
   </form>
 </div>
+
+
   )
 }
+
 
 export default Registro
