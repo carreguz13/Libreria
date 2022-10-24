@@ -67,11 +67,11 @@ height: 50px;
 .tabla-contenedor {
     display: flex;
     width:90%;
-    height: 500px;
+    height: 550px;
     
     border-radius: 13px;
     overflow: auto;
-    backdrop-filter: brightness(40%);
+    backdrop-filter: brightness(30%);
 }
 
 .informacion1
@@ -81,10 +81,7 @@ height: 50px;
     width: 100%;
     margin: 10px;
     overflow: auto;
-    border: solid 2px #fff;
-    
-   
-    border-radius: 5px;
+
 }
 
 .informacion
@@ -102,10 +99,8 @@ height: 50px;
     display: flex;
     border: solid 2px rgb(166, 166, 166);
     border-radius: 7px;
-    
-    
     margin-right: 20px;
-}
+    }
 
 
 .primera div:first-child {
@@ -167,7 +162,7 @@ h2 {
     display: flex;
     margin: 0;
     font-size: 15px;
-    color: rgb(237, 237, 237);
+    color: rgb(210, 210, 210);
 }
 .btn1 {
     align-items: center;
@@ -185,6 +180,7 @@ h2 {
     font-size: 15px;
     font-weight: bolder;
     margin: 0 5px 0 0;
+    color: rgb(236, 236, 236);
 }
 
 .btn1:focus {
@@ -218,6 +214,7 @@ h2 {
     font-size: 15px;
     font-weight: bolder;
     margin: 0 0 10px 5px;
+    color: rgb(236, 236, 236);
 }
 
 .btn2:focus {
