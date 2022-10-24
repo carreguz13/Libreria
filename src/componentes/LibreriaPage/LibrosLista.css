@@ -8,7 +8,7 @@
     align-items: center;
     background-position: center;
     background-size: cover;
-}
+    }
 
 .botones-lib {
     display: flex;
@@ -16,6 +16,7 @@
 height: 50px;
     justify-content: flex-start;
     align-items: center;
+    padding: 0 0 10px 0;
 }
 
 
@@ -67,7 +68,12 @@ height: 50px;
     display: flex;
     width:90%;
     height: 500px;
-    background-color: red;
+    border: solid px rgba(8, 252, 0, 0.678);
+    border-radius: 13px;
+    overflow: auto;
+    backdrop-filter: brightness(40%);
+    
+   
 }
 
 .informacion1
@@ -76,38 +82,82 @@ height: 50px;
     flex-direction: column;
     width: 100%;
     margin: 10px;
-    background: blanchedalmond;
     overflow: auto;
     
+    
+    border-radius: 10px;
 }
+
 .informacion
 {
     display: flex;
     flex-direction:row;
-    width: 100%;
+    width: auto;
     margin: 10px;
-    background: blanchedalmond;
     
+ }
+
+.primera {
+    width: 60%;
+    display: flex;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 7px;
+    
+    
+    margin-right: 20px;
+}
+
+
+.primera div:first-child {
+    width: 50%;
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0 0 0 20px;
+  
+
+}
+.primera div:last-child {
+    width: 50%;
+    background-color: yellllow;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0 0 0 20px;
     
 }
 
-.primera {
-    width: 50%;
-    background-color: yellow;
-}
+
 
 .primera p {
     margin: 0;
     padding: 0 0 0 20px;
     font-size: 15px;
+    color: rgb(255, 196, 0);
     }
 
 .botones {
-    text-align: center;
-    
-    width: 50%;
-    margin: 10px;
-    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+.botones-ed-el {
+    display: flex;
+    flex-direction: row;
+}
+
+.libroimg img {
+    width: 105px;
+height: auto;
+margin: 0;
 }
 
 
@@ -117,11 +167,5 @@ h2 {
     display: flex;
     margin: 0;
     font-size: 15px;
-
-   
-}
-
-img {
-    width: 20px;
-    height: 20px;
+    color: rgb(255, 255, 255);
 }

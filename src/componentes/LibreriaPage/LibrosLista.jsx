@@ -4,7 +4,7 @@ import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/compo
 import {Link, useNavigate} from "react-router-dom"
 import imagen from "../../../src/book.jpg"
 import imagen2 from "../../../src/Assets/download.svg"
-
+import libro from "../../../src/Assets/book.png"
 
 
 function LibrosLista() {
@@ -70,24 +70,29 @@ const accionEliminar = (id) => {
               <h2>Título:<p>{item.Titulo}</p></h2>
               <h2>Edición:<p>{item.Edicion}</p></h2>
               <h2>Fecha de publicación:<p>{item.Fecha_de_publicacion}</p></h2>
+              </div>
+              <div>
               <h2>Tipo de contenido:<p>{item.Tipo_de_contenido}</p></h2>
               <h2>Restricciones:<p>{item.Restricciones}</p></h2>
               <h2>Materia:<p>{item.Materia}</p></h2>
               <h2>Proveedor:<p>{item.Proveedor}</p></h2>
               </div>
               </div>
+
+
               <div className='botones'>
               <div className='libroimg'>
-                <img src={imagen} alt="" />
+                <img src={libro} alt="" />
 
               </div>
-              
+              <div className='botones-ed-el'>
               <Link to={"/editar"}>
+
               <button onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
                 item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
               <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
-
+              </div>
 
               </div>
               
@@ -107,11 +112,7 @@ const accionEliminar = (id) => {
         </div>
  
         </div>
-        <div className='btn-reg-lib'>
-    <Link to={"/registro"}>
-    <button>Registrar nuevo libro</button>
-    </Link>
-    </div>
+       
 
         </div>
     </Fragment>
