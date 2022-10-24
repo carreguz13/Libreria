@@ -16,7 +16,6 @@ function Home() {
         <Link to={"/libreria"}>
         <button className='b2'>Libreria</button>
         </Link>
-        
     </div>
   )
 }

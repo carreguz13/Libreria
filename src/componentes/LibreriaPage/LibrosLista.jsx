@@ -44,10 +44,10 @@ const accionEliminar = (id) => {
 
   return (
     <Fragment>
-         <div className='main-container' >
+          <div className='main-container' >
 
            <div className='botones-lib'>
-          <Link to={"/"}>
+               <Link to={"/"}>
               <img className='casa' src={imagen2} alt="" />
               </Link>
               <Link to={"/registro"}>
@@ -81,38 +81,26 @@ const accionEliminar = (id) => {
 
               <div className='botones'>
               <div className='libroimg'>
-                <img src={libro} alt="" />
+              <img src={libro} alt="" />
 
               </div>
               <div className='botones-ed-el'>
               <Link to={"/editar"}>
 
               <button className='btn1' onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
-                item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
+              item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
               <button className='btn2' onClick={() => accionEliminar(item.id)}>Eliminar</button>
               </div>
-
               </div>
-              
-              
               </div>
-              
             )
           })
           :
           "No hay libros registrados"
-          
         }
-       
-       
-
-
         </div>
- 
         </div>
-       
-
         </div>
     </Fragment>
   )

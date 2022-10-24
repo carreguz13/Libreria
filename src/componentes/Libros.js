@@ -1,5 +1,5 @@
 const Libros =  [ 
-/*creamos un array que contiene tres objetos (informacion del libro)*/ 
+/*Arrey que contiene la informacion de cada libro*/ 
 {
     id:"1",
     Autor:"John Green",

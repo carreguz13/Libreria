@@ -9,7 +9,7 @@ import {v4 as uuid} from "uuid"
 function Registro() {
   
   const[autor, setAutor] = useState("")
-   const[titulo, setTitulo] = useState("")
+  const[titulo, setTitulo] = useState("")
   const[edicion, setEdicion] = useState("")
   const[fecha_de_publicacion, setFecha_de_publicacion] = useState("")
   const[tipo_de_contenido, setTipo_de_contenido] = useState("")
@@ -87,17 +87,13 @@ historial ("/libreria")
       <option value="Materia(n)">Materia(n)</option>
       </optgroup>
     </select>
-   
     <label htmlFor="proveedor-imput">Proveedor</label>
     <input type="text" placeholder='Nombre del Proveedor' required onChange={(e) => setProveedor(e.target.value)}/>
 
 
     <button onClick={(e) => accionRegistar(e)} type='submit'>Registar</button>
-
   </form>
 </div>
-
-
   )
 }
 
