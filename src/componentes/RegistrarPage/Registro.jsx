@@ -7,10 +7,9 @@ import {v4 as uuid} from "uuid"
 
 
 function Registro() {
-
+  
   const[autor, setAutor] = useState("")
- 
-  const[titulo, setTitulo] = useState("")
+   const[titulo, setTitulo] = useState("")
   const[edicion, setEdicion] = useState("")
   const[fecha_de_publicacion, setFecha_de_publicacion] = useState("")
   const[tipo_de_contenido, setTipo_de_contenido] = useState("")

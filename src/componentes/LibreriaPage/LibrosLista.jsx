@@ -11,9 +11,19 @@ function LibrosLista() {
 
 let historial = useNavigate();
 
-const accionEditar = (id, autor) =>{
+const accionEditar = (id, autor, titulo, edicion, fecha_de_publicacion, tipo_de_contenido,
+  restricciones, materia, proveedor) =>{
+
   localStorage.setItem("Autor", autor)
+  localStorage.setItem("Titulo", titulo)
+  localStorage.setItem("Edicion", edicion)
+  localStorage.setItem("Fecha_de_publicacion", fecha_de_publicacion)
+  localStorage.setItem("Tipo_de_contenido", tipo_de_contenido)
+  localStorage.setItem("Restricciones", restricciones)
+  localStorage.setItem("Materia", materia)
+  localStorage.setItem("Proveedor", proveedor)
   localStorage.setItem("Id",id)
+  
 }
 
 
@@ -61,7 +71,8 @@ const accionEliminar = (id) => {
               </div>
               <div className='botones'>
               <Link to={"/editar"}>
-              <button onClick={() => accionEditar(item.id, item.Autor)}>Editar</button>
+              <button onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
+                item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
               <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
               </div>
