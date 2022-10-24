@@ -94,7 +94,7 @@ useEffect (() =>{
 </select>
 
 <label htmlFor="restricciones-imput">Restricciones</label>
-<input type="text" placeholder='En caso de no tener restricciones, poner "NO"' value={restricciones} required onChange={(e) => setRestricciones(e.target.value)}/>
+<input type="text" placeholder='Restricciones' value={restricciones} required onChange={(e) => setRestricciones(e.target.value)}/>
 
 <label htmlFor="materia-imput">Materia</label>
 <select value={materia} required onChange={(e) => setMateria(e.target.value)}>

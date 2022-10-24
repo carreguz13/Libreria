@@ -7,7 +7,7 @@ const Libros =  [
     Edicion:"primera edición",
     Fecha_de_publicacion:"1994-12-08",
     Tipo_de_contenido:"Juvenil",
-    Restricciones:"NO",
+    Restricciones:"Sin restricciones",
     Materia:"Materia(2)",
     Proveedor:"Podiprint"
 },
@@ -18,7 +18,7 @@ const Libros =  [
     Edicion :"Tercera edición",
     Fecha_de_publicacion:"2021-06-16",
     Tipo_de_contenido:"Científico",
-    Restricciones:"NO",
+    Restricciones:"Sin restricciones",
     Materia:"Materia(n)",
     Proveedor:"Elkar"
 },
@@ -29,7 +29,7 @@ const Libros =  [
     Edicion :"Primera edicion",
     Fecha_de_publicacion:"2006-02-02",
     Tipo_de_contenido:"De viaje",
-    Restricciones:"NO",
+    Restricciones:"Sin restricciones",
     Materia:"Materia(1)",
     Proveedor:"Azeta"
 }

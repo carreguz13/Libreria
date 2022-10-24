@@ -45,7 +45,8 @@ historial ("/libreria")
   <form>
 
     <label htmlFor="autor-imput">Autor</label>
-    <input type="text" placeholder='Nombre del autor' required onChange={(e) => setAutor(e.target.value)}/>
+    <input type="text" placeholder='Nombre del autor' onChange={(e) => setAutor(e.target.value)} required >
+    </input>
 
     <label htmlFor="titulo-imput">Título</label>
     <input type="text" placeholder='Escribir título' required onChange={(e) => setTitulo(e.target.value)}/>
@@ -76,7 +77,7 @@ historial ("/libreria")
     </select>
 
     <label htmlFor="restricciones-imput">Restricciones</label>
-    <input type="text" placeholder='En caso de no tener restricciones, poner "NO"' required onChange={(e) => setRestricciones(e.target.value)}/>
+    <input type="text" placeholder='Restricciones' required onChange={(e) => setRestricciones(e.target.value)}/>
 
     <label htmlFor="materia-imput">Materia</label>
     <select required onChange={(e) => setMateria(e.target.value)}>

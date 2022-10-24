@@ -2,7 +2,6 @@ import React, {Fragment} from 'react'
 import "./LibrosLista.css"
 import Libros from 'C:/Users/carlos/Desktop/Proyecto-Libreria/libreria/src/componentes/Libros'
 import {Link, useNavigate} from "react-router-dom"
-import imagen from "../../../src/book.jpg"
 import imagen2 from "../../../src/Assets/download.svg"
 import libro from "../../../src/Assets/book.png"
 
