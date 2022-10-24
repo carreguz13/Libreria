@@ -88,10 +88,10 @@ const accionEliminar = (id) => {
               <div className='botones-ed-el'>
               <Link to={"/editar"}>
 
-              <button onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
+              <button className='btn1' onClick={() => accionEditar(item.id, item.Autor, item.Titulo, item.Edicion, item.Fecha_de_publicacion,
                 item.Tipo_de_contenido, item.Restricciones, item.Materia, item.Proveedor)}>Editar</button>
               </Link>
-              <button onClick={() => accionEliminar(item.id)}>Eliminar</button>
+              <button className='btn2' onClick={() => accionEliminar(item.id)}>Eliminar</button>
               </div>
 
               </div>

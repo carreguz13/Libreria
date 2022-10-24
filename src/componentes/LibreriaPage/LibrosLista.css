@@ -33,10 +33,10 @@ height: 50px;
    .btnverde{
     align-items: center;
     
-    background-color: #14830c;
+    background-color: rgb(17, 200, 0);
     border-radius: 4px;
     border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#14830c 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(17, 200, 0) 0 -3px 0 inset;
     color: #fff;
     cursor: pointer;
     height: 33px;
@@ -50,16 +50,16 @@ height: 50px;
    }
 
    .btnverde:focus {
-    box-shadow: #14830c 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #14830c 0 -3px 0 inset;
+    box-shadow: rgb(17, 200, 0) 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(17, 200, 0) 0 -3px 0 inset;
   }
   
   .btnverde:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #14830c 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(17, 200, 0) 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
   .btnverde:active {
-    box-shadow: #14830c 0 3px 7px inset;
+    box-shadow: rgb(17, 200, 0) 0 3px 7px inset;
     transform: translateY(2px);
   }
 
@@ -68,12 +68,10 @@ height: 50px;
     display: flex;
     width:90%;
     height: 500px;
-    border: solid px rgba(8, 252, 0, 0.678);
+    
     border-radius: 13px;
     overflow: auto;
     backdrop-filter: brightness(40%);
-    
-   
 }
 
 .informacion1
@@ -83,9 +81,10 @@ height: 50px;
     width: 100%;
     margin: 10px;
     overflow: auto;
+    border: solid 2px #fff;
     
-    
-    border-radius: 10px;
+   
+    border-radius: 5px;
 }
 
 .informacion
@@ -95,12 +94,13 @@ height: 50px;
     width: auto;
     margin: 10px;
     
+    
  }
 
 .primera {
     width: 60%;
     display: flex;
-    border: solid 2px rgb(255, 255, 255);
+    border: solid 2px rgb(166, 166, 166);
     border-radius: 7px;
     
     
@@ -133,10 +133,10 @@ height: 50px;
 
 
 .primera p {
-    margin: 0;
-    padding: 0 0 0 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 5px;
     font-size: 15px;
-    color: rgb(255, 196, 0);
+    color: rgba(255, 162, 0, 0.944);
     }
 
 .botones {
@@ -145,7 +145,7 @@ height: 50px;
     justify-content: center;
     align-items: center;
     width: 40%;
-    border: solid 2px rgb(255, 255, 255);
+    border: solid 2px rgb(166, 166, 166);
     border-radius: 7px;
 }
 
@@ -167,5 +167,69 @@ h2 {
     display: flex;
     margin: 0;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(237, 237, 237);
 }
+.btn1 {
+    align-items: center;
+    background-color: rgb(17, 200, 0);
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(17, 200, 0) 0 -3px 0 inset;
+    color: #fff;
+    cursor: pointer;
+    height: 33px;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0 5px 0 0;
+}
+
+.btn1:focus {
+    box-shadow: rgb(17, 200, 0) 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(17, 200, 0) 0 -3px 0 inset;
+  }
+  
+  .btn1:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(17, 200, 0) 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btn1:active {
+    box-shadow: rgb(17, 200, 0) 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+
+  .btn2 {
+    align-items: center;
+    background-color: rgb(228, 0, 0);
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(228, 0, 0) 0 -3px 0 inset;
+    color: #fff;
+    cursor: pointer;
+    height: 33px;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0 0 10px 5px;
+}
+
+.btn2:focus {
+    box-shadow: rgb(228, 0, 0) 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(228, 0, 0) 0 -3px 0 inset;
+  }
+  
+  .btn2:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(228, 0, 0) 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btn2:active {
+    box-shadow: rgb(228, 0, 0) 0 3px 7px inset;
+    transform: translateY(2px);
+  }
