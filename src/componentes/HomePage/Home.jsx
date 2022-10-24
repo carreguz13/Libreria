@@ -1,22 +1,20 @@
 import React from 'react'
 import "./Home.css"
-/*importamos link para poder usar las routas de App.js y usarla con los botones*/ 
 import {Link} from "react-router-dom"
-
+import libro from "../../../src/Assets/book.png"
 
 
 function Home() {
   return (
     <div className='main-container-home'>
-      <h1>Imagen Here</h1>
-{/*Botones Home*/} 
+      <img src={libro} alt="" />
 
         <Link to={"/registro"}>
-        <button>Registra un libro</button>
+        <button className='b1'>Registra un libro</button>
         </Link>
 
         <Link to={"/libreria"}>
-        <button>Libreria</button>
+        <button className='b2'>Libreria</button>
         </Link>
         
     </div>

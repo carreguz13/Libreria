@@ -1,0 +1,62 @@
+.main-container-home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../Assets/4.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main-container-home img {
+    width: 300px;
+    height: auto;
+    margin: -120px 0 0 0;
+}
+
+.b1 {
+    align-items: center;
+    margin: 0 0 20px 0;
+    background-color: rgb(255, 251, 0);
+    border-radius: 15px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(255, 251, 0) 0 -3px 0 inset;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+  .b1:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(255, 251, 0) 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+   .b2 {
+    align-items: center;
+    background-color: rgb(255, 251, 0);
+    border-radius: 15px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(255, 251, 0) 0 -3px 0 inset;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+  
+  .b2:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgb(255, 251, 0) 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
