@@ -59,7 +59,7 @@ useEffect (() =>{
 
   
   return (
-    <div>
+    <div className='mainr'>
   <form>
 
 <label htmlFor="autor-imput">Autor</label>
