@@ -3,14 +3,37 @@
     height: 100vh;
     background-color: blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-  
 }
 
-.lol2 {
-    width: 90%;
+.tabla-contenedor {
+    display: flex;
+    width:90%;
     height: 500px;
     background-color: red;
-     
 }
+
+.informacion 
+{
+    text-align: center;
+    
+    width: 50%;
+    margin: 10px;
+    background: blanchedalmond;
+    
+}
+
+.botones {
+    text-align: center;
+    
+    width: 50%;
+    margin: 10px;
+    background: blue;
+}
+
+
+
+
+
